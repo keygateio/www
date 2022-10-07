@@ -17,8 +17,8 @@
 {# #}
 {% block body %}{% set page_class="" %}{% endblock body %}
 
-<body>
-  <div class="{{ page_class }} page">
+<body data-barba="wrapper">
+  <div class="{{ page_class }} page" data-barba="container">
     {% block header %}
     {{ macros_header::header(current_section="/") }}
     {% endblock header %}

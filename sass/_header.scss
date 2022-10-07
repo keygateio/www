@@ -2,6 +2,12 @@ header {
   display: flex;
   padding-top: 2rem;
 
+  .active > a {
+    color: var(--text-color);
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
   > a {
     text-decoration: none !important;
     > h1.logo {
@@ -11,7 +17,7 @@ header {
       line-height: 1;
       padding-bottom: 0.3rem;
 
-      background: -webkit-linear-gradient(#8ecef5, #d5eefd, #fff);
+      background: linear-gradient(#8ecef5, #d5eefd, #fff);
       -webkit-background-clip: text;
       background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -23,5 +29,20 @@ header {
     list-style: none;
     align-items: center;
     margin: 0;
+
+    a {
+      padding: 0 0.4rem;
+    }
+  }
+
+  ul.end {
+    margin-left: auto;
+    .star {
+      display: flex;
+      align-items: center;
+      svg {
+        margin-right: 0.4rem;
+      }
+    }
   }
 }

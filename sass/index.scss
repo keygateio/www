@@ -3,7 +3,7 @@
 
 @import "./_header.scss";
 @import "./_footer.scss";
-@import "./pages/index_.scss";
+@import "./pages/_index.scss";
 
 body,
 html {
@@ -22,7 +22,6 @@ body {
   min-height: 100vh;
 
   a {
-    padding: 0 0.4rem;
     color: var(--text-color-darker);
     text-decoration: none;
 
@@ -46,4 +45,15 @@ div.page {
     flex-direction: column;
     flex: 1;
   }
+}
+
+pre > code {
+  border-radius: var(--border-radius);
+  display: block;
+  padding: 0.5rem;
+  background: white;
+  color: black;
+  font-size: 1rem;
+  line-height: 1.2;
+  overflow-x: auto;
 }

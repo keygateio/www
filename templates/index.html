@@ -4,7 +4,7 @@
 {{ super() }}
 {% set title = "Keygate" %}
 {% block body %}{% set page_class="index" %}{% endblock body %}
-{% set description = "Never think about authentication and authorization again. Keygate is the final open-source
+{% set description = "Never waste time on authentication and authorization again. Keygate is the final open-source
 identity solution." %}
 
 {{ macros_head::seo(title=title, title_addition=title_addition, description=description, is_home=true) }}
@@ -15,10 +15,11 @@ identity solution." %}
 
 <div class="slogan">
   <div>
-    <h1>Never think about <span>authentication</span> and <span>authorization</span> again.</h1>
+    <h1>Never waste time on <span>authentication</span> and <span>authorization</span> again.</h1>
+    <pre><code>$ docker run -d -p 3000:3000 ghcr.io/keygateio/keygate:latest</code></pre>
   </div>
-  <div>
-
+  <div class="authwindow">
+    <img src="/loginpage.png" alt="Keygate Login Page" />
   </div>
 </div>
 

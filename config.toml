@@ -5,7 +5,7 @@ generate_feed = true
 
 [markdown]
 highlight_code = true
-highlight_theme = "dracula"
+highlight_theme = "base16-ocean-dark"
 
 [search]
 include_content = true
