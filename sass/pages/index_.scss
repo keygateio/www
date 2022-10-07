@@ -1,0 +1,22 @@
+div.index {
+  > div {
+    justify-content: center;
+  }
+
+  .slogan {
+    min-height: calc(20rem + 10vh);
+    display: flex;
+    align-items: center;
+    line-height: 1.6;
+
+    span {
+      background-color: var(--text-color);
+      color: black;
+      padding: 0.1rem 0.5rem;
+    }
+
+    > div {
+      flex: 1;
+    }
+  }
+}

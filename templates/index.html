@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block seo %}
+{{ super() }}
+{% set title = "Keygate" %}
+{% block body %}{% set page_class="index" %}{% endblock body %}
+{% set description = "Never think about authentication and authorization again. Keygate is the final open-source
+identity solution." %}
+
+{{ macros_head::seo(title=title, title_addition=title_addition, description=description, is_home=true) }}
+{% endblock seo %}
+
+
+{% block content %}
+
+<div class="slogan">
+  <div>
+    <h1>Never think about <span>authentication</span> and <span>authorization</span> again.</h1>
+  </div>
+  <div>
+
+  </div>
+</div>
+
+{% endblock content %}

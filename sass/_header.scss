@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  padding-top: 2rem;
+
+  > h1.logo {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 0.3rem;
+
+    background: -webkit-linear-gradient(#8ecef5, #d5eefd, #fff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  > ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+  }
+}
