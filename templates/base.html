@@ -10,7 +10,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="{{ get_url(path='index.css') | safe }}" />
+  <link rel="stylesheet" href="{{ get_url(path='index.css', cachebust=true) | safe }}" />
   <title>keygate.io</title>
 </head>
 
@@ -34,7 +34,7 @@
   {% endblock footer %}
 
 
-  <script type="module" src="{{ get_url(path='index.js' ) | safe }}"></script>
+  <script type="module" src="{{ get_url(path='index.js', cachebust=true) | safe}}"></script>
 </body>
 
 </html>
