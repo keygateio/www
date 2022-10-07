@@ -4,7 +4,7 @@
     url("./victormono/woff/VictorMono-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 @font-face {
   font-family: "Victor Mono";
@@ -12,7 +12,7 @@
     url("./victormono/woff/VictorMono-Italic.woff") format("woff");
   font-weight: 400;
   font-style: italic;
-  font-display: swap;
+  font-display: block;
 }
 @font-face {
   font-family: "Victor Mono";
@@ -20,7 +20,7 @@
     url("./victormono/woff/VictorMono-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 @font-face {
   font-family: "Victor Mono";
@@ -28,7 +28,7 @@
     url("./victormono/woff/VictorMono-BoldItalic.woff") format("woff");
   font-weight: 700;
   font-style: italic;
-  font-display: swap;
+  font-display: block;
 }
 
 * {

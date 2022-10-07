@@ -1,14 +1,16 @@
 {% macro header(current_section) %}
 <header>
-  <h1 class="logo">
-    keygate
-  </h1>
+  <a href="/">
+    <h1 class="logo">
+      keygate
+    </h1>
+  </a>
   <ul>
     <li>
-      <a href="{{ get_url(path=" docs", trailing_slash=true) | safe }}">Docs</a>
+      <a href="{{ get_url(path='docs', trailing_slash=true) | safe }}">Docs</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="{{ get_url(path=" blog", trailing_slash=true) | safe }}">Blog</a>
+      <a class="nav-link" href="{{ get_url(path='blog', trailing_slash=true) | safe }}">Blog</a>
     </li>
   </ul>
 </header>
