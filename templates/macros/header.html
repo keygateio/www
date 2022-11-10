@@ -6,12 +6,13 @@
     </h1>
   </a>
   <ul>
-    <li class="{% if current_section == 'docs' %}active{% endif %}">
-      <a href="{{ get_url(path='docs', trailing_slash=true) | safe }}">Docs</a>
-    </li>
     <li class="nav-item">
-      <a class="nav-link" href="{{ get_url(path='blog', trailing_slash=true) | safe }}">Blog</a>
+      <a class="nav-link" href="{{ get_url(path='features', trailing_slash=true) | safe }}">features</a>
     </li>
+    <li class="{% if current_section == 'blog' %}active{% endif %}">
+      <a href="{{ get_url(path='blog', trailing_slash=true) | safe }}">blog</a>
+    </li>
+
   </ul>
   <ul class="end">
     <li>
