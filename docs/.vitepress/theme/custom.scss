@@ -1,0 +1,35 @@
+:root {
+  --vp-font-family-base: "Euclid Flex", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #3474fe,
+    #41e3ff
+  );
+
+  --vp-c-white: #ffffff;
+  --vp-c-white-soft: #e0e0e0;
+  --vp-c-white-mute: #f1f1f1;
+
+  --vp-c-black: #1a1a1a;
+  --vp-c-black-pure: #000000;
+  --vp-c-black-soft: #131313;
+  --vp-c-black-mute: #1a1a1a;
+}
+
+.VPNavBarTitle > .title {
+  font-size: 1.5em;
+  font-weight: unset;
+}
+
+.VPNav.no-sidebar {
+  background: linear-gradient(120deg, #03abff, rgb(255, 255, 255)) !important;
+}
+
+.dark {
+  .VPNav.no-sidebar {
+    background: linear-gradient(120deg, #03abff, #0a493d) !important;
+  }
+}
