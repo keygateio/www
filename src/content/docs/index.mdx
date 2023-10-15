@@ -1,0 +1,44 @@
+---
+title: The Intuitive Authentication Platform
+description: Build your applications with confidence using Keygate. A simple, secure, and scalable authentication and identity platform.
+template: splash
+hero:
+  tagline: Build your applications with confidence using Keygate. A simple, secure, and scalable authentication and identity platform.
+  image:
+    file: ../../assets/houston.webp
+  actions:
+    - text: Try the demo
+      link: /guides/example/
+      icon: right-arrow
+      variant: primary
+    - text: Read the docs
+      link: https://starlight.astro.build
+      icon: external
+---
+
+import { Card, CardGrid } from "@astrojs/starlight/components";
+
+export const Test = () => {
+  return <div>test</div>;
+};
+
+## Features
+
+<CardGrid stagger>
+  <Card title="🔒 Secure by default">
+    Build with secure defaults and best practices in mind
+  </Card>
+  <Card title="🚀 Lightweight and reliable">
+    A single binary that will handle everything for you. No need to install a
+    database or configure a server.
+  </Card>
+  {/*  next one is "No vendor lock-in" */}
+  <Card title="No vendor lock-in">
+    You own your data. Get started in minutes and (if you want) build your own
+    authentication system later.
+  </Card>
+  <Card title="Batteries included">
+    Keygate comes with a built-in UI, Admin panel, and API. You can just use the
+    parts you need.
+  </Card>
+</CardGrid>

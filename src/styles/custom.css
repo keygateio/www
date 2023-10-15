@@ -1,0 +1,125 @@
+:root {
+	--sl-font: 'Euclid Square',-apple-system,BlinkMacSystemFont,'Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
+  letter-spacing: -.04em;
+	--sl-color-bg-nav: var(--sl-color-gray-6);
+	--sl-alpha: 0.9;
+}
+
+.hero h1 {
+  font-weight: 500;
+}
+
+article.card {
+	border-radius: 0.7rem;
+	background: color-mix(in srgb,var(--sl-color-black),#0000 60%);
+}
+
+body {
+	background: radial-gradient(49.19% 88.28% at 72.99% 113.54%, rgba(93, 227, 236, 0.73) 0%, rgb(28, 37, 41) 59.78%, rgb(30, 35, 41) 100%), linear-gradient(54.57deg, rgb(24, 23, 24) 8.59%, rgba(185, 91, 230, 0) 80.49%), radial-gradient(118.75% 118.75% at 96.65% 74.22%, rgb(34, 36, 37) 0%, rgba(48, 158, 230, 0) 73.91%), radial-gradient(114.51% 155.86% at 9.82% 10.94%, rgb(26, 22, 22) 0%, rgba(31, 28, 28, 0.14) 61.98%, rgba(255, 85, 85, 0) 100%, rgba(36, 38, 41, 0.16));
+	background-blend-mode: color-burn;
+}
+
+header.header {
+	background: color-mix(in srgb,var(--sl-color-black),#0000 60%);
+	border-bottom: none;
+	backdrop-filter: blur(10px);
+}
+
+.site-title span {
+	font-weight: 500;
+	color: var(--sl-color-white);
+}
+
+.social-icons svg {
+	fill: var(--sl-color-white);
+}
+
+/* Dark mode colors. */
+:root {
+	--sl-color-accent-low: #091c33;
+	--sl-color-accent: #005bb5;
+	--sl-color-accent-high: #88b6ff;
+	--sl-color-white: #ebebeb;
+	--sl-color-gray-1: #d8d8d8;
+	--sl-color-gray-2: #a5a5a5;
+	--sl-color-gray-3: #7c7c7c;
+	--sl-color-gray-4: #5a5a5a;
+	--sl-color-gray-5: #202020;
+	--sl-color-gray-6: rgb(20, 20, 20);
+	--sl-color-black: #030303;
+}
+/* Light mode colors. */
+:root[data-theme='light'] {
+	--sl-color-accent-low: #ccddff;
+	--sl-color-accent: #3377cc;
+	--sl-color-accent-high: #004d99;
+	--sl-color-white: #0e0e0e;
+	--sl-color-gray-1: #1e1e1e;
+	--sl-color-gray-2: #383838;
+	--sl-color-gray-3: #5a5a5a;
+	--sl-color-gray-4: #7c7c7c;
+	--sl-color-gray-5: #a5a5a5;
+	--sl-color-gray-6: #d8d8d8;
+	--sl-color-gray-7: #ebebeb;
+	--sl-color-black: #ffffff;
+}
+
+
+@font-face {
+	font-family: 'Euclid Square';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.henrygressmann.de/fonts/euclid/EuclidSquare-Regular-WebXL.woff2)
+			format('woff2'),
+		url(https://fonts.henrygressmann.de/fonts/euclid/EuclidSquare-Regular-WebXL.woff)
+			format('woff');
+	font-display: swap;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Euclid Square';
+	font-style: normal;
+	font-weight: 500;
+	src: url(https://fonts.henrygressmann.de/fonts/euclid/EuclidSquare-Medium-WebS.woff2)
+			format('woff2'),
+		url(https://fonts.henrygressmann.de/fonts/euclid/EuclidSquare-Medium-WebS.woff)
+			format('woff');
+	font-display: swap;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Euclid Square';
+	font-style: normal;
+	font-weight: 600;
+	src: url(https://fonts.henrygressmann.de/fonts/euclid/EuclidSquare-Semibold-WebS.woff2)
+			format('woff2'),
+		url(https://fonts.henrygressmann.de/fonts/euclid/EuclidSquare-Semibold-WebS.woff)
+			format('woff');
+	font-display: swap;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Euclid Square';
+	font-style: normal;
+	font-weight: 700;
+	src: url(https://fonts.henrygressmann.de/fonts/euclid/EuclidSquare-Bold-WebS.woff2)
+			format('woff2'),
+		url(https://fonts.henrygressmann.de/fonts/euclid/EuclidSquare-Bold-WebS.woff)
+			format('woff');
+	font-display: swap;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Euclid Square';
+	font-style: normal;
+	font-weight: 200;
+	src: url(https://fonts.henrygressmann.de/fonts/euclid/EuclidSquare-Light-WebS.woff2)
+			format('woff2'),
+		url(https://fonts.henrygressmann.de/fonts/euclid/EuclidSquare-Light-WebS.woff)
+			format('woff');
+	font-display: swap;
+}

@@ -1,20 +1,17 @@
 {
-  "name": "keygate-www",
-  "private": true,
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
-    "preview": "vitepress preview docs"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "keywords": [],
-  "author": "",
-  "devDependencies": {
-    "@algolia/client-search": "^4.14.2",
-    "sass": "^1.57.0",
-    "vitepress": "1.0.0-alpha.32",
-    "vue": "^3.2.45"
+  "dependencies": {
+    "@astrojs/starlight": "^0.11.1",
+    "astro": "^3.2.3",
+    "sharp": "^0.32.5"
   }
 }
